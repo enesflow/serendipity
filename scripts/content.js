@@ -4,8 +4,13 @@ const TARGETS = [
   "https://commons.wikimedia.org/wiki/Special:Random/File", // Random Wikimedia Commons file
   "useless-web", // Random useless web site
   "https://c.xkcd.com/random/comic/", // Random XKCD comic
-  "https://www.boredpanda.com/random/", // Random Bored Panda article
   "https://randomstreetview.com/", // Random Street View
+  "http://cat-bounce.com/", // Cat Bounce
+  "https://randomwordgenerator.com/fact.php", // Random fact
+  "https://randomword.com/", // Random word
+  "https://neal.fun/infinite-craft/", // Infinite Craft
+  "https://www.boredbutton.com/random", // Bored Button
+  "https://www.window-swap.com/", // Window Swap
 ];
 function getRandomTarget() {
   let target = TARGETS[Math.floor(Math.random() * TARGETS.length)];
