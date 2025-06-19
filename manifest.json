@@ -3,6 +3,7 @@
   "description": "Move out of your comfort zone and discover new things.",
   "version": "0.1",
   "manifest_version": 3,
+  "permissions": ["storage"],
   "action": {
     "default_popup": "popup/index.html",
     "default_icon": "images/icon19.png"

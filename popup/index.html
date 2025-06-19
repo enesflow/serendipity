@@ -6,6 +6,11 @@
   </head>
   <body>
     <h1>Serendipity</h1>
+    <label for="frequency">Frequency: <span id="freqValue"></span></label>
+    <input type="range" id="frequency" min="0.01" max="1" step="0.001" />
+    <p id="freqDesc" style="display: none">
+      The changes will take effect after you reload the page.
+    </p>
     <script src="../scripts/popup.js"></script>
   </body>
 </html>
