@@ -11,9 +11,7 @@
     {
       "js": ["scripts/useless-web.js", "scripts/content.js"],
       "matches": [
-        "https://wikipedia.org/*",
-        "https://en.wikipedia.org/*",
-        "https://www.wikipedia.org/*"
+        "<all_urls>"
       ]
     }
   ],
