@@ -3,14 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <title>Serendipity</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Serendipity</h1>
-    <label for="frequency">Frequency: <span id="freqValue"></span></label>
-    <input type="range" id="frequency" min="0.01" max="1" step="0.001" />
-    <p id="freqDesc" style="display: none">
-      The changes will take effect after you reload the page.
-    </p>
+    <div class="content">
+      <div class="frequency-section">
+        <label for="frequency">Frequency: <span id="freqValue"></span></label>
+        <input type="range" id="frequency" min="1" max="100" step="1" />
+        <p id="freqDesc" style="display: none">
+          The changes will take effect after you reload the page.
+        </p>
+      </div>
+      <h2>Targets</h2>
+      <ul id="targetList"></ul>
+      <input type="text" id="newTarget" placeholder="https://example.com" />
+      <div class="button-container">
+        <button id="addTarget">Add</button>
+        <button id="restoreDefaults">Restore Defaults</button>
+      </div>
+    </div>
     <script src="../scripts/popup.js"></script>
   </body>
 </html>
